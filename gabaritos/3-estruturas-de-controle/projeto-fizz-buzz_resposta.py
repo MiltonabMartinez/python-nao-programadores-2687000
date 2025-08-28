@@ -8,7 +8,7 @@
 
 lista_numeros = list(range(15,31))
 indice = 0
-print(lista_numeros)
+#print(lista_numeros)
 
 for numero in lista_numeros:
     if numero % 3 == 0 and numero % 5 == 0:
@@ -19,7 +19,6 @@ for numero in lista_numeros:
         lista_numeros[indice] = "Buzz"
     else:
         lista_numeros[indice] = numero
-
     indice += 1
 
 print(lista_numeros)
